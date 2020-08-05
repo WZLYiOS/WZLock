@@ -1,0 +1,33 @@
+{
+  "name": "WZLock",
+  "version": "1.0.0",
+  "summary": "安全锁",
+  "description": "我主良缘锁",
+  "homepage": "https://gitlab.com/WZiOS/WZLock",
+  "license": "MIT",
+  "authors": {
+    "LiuSky": "327847390@qq.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/WZiOS/WZLock.git",
+    "tag": "1.0.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "default_subspecs": "Source",
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "WZLock/Classes/*.swift"
+    },
+    {
+      "name": "Binary",
+      "vendored_frameworks": "Carthage/Build/iOS/Static/WZLock.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}

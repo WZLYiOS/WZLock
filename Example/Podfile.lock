@@ -1,0 +1,18 @@
+PODS:
+  - WZLock (1.0.0):
+    - WZLock/Source (= 1.0.0)
+  - WZLock/Source (1.0.0)
+
+DEPENDENCIES:
+  - WZLock (from `../`)
+
+EXTERNAL SOURCES:
+  WZLock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZLock: ab5bffd38af32b783627c9a288e5a1f44dda3016
+
+PODFILE CHECKSUM: be2735cb75f2177227e8b5da093defba450975ce
+
+COCOAPODS: 1.9.1

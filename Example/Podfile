@@ -1,0 +1,13 @@
+source 'https://gitlab.com/WZiOS/WZiOSPodSpecs.git'
+
+use_frameworks!
+
+target 'WZLock_Example' do
+  pod 'WZLock', :path => '../'
+
+  target 'WZLock_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module WZLock {
+  umbrella header "WZLock-umbrella.h"
+
+  export *
+  module * { export * }
+}

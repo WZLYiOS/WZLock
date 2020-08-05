@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0930CDCA22C254B6F18D68B254391FC2 /* Pods-WZLock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65D0D55E5E9B23D10D34E692DD424B7 /* Pods-WZLock_Tests-dummy.m */; };
+		164CDC51BED2265131655DDF160D1659 /* Pods-WZLock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AB3F9E6672A3C7A03DF03099976164 /* Pods-WZLock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAE84818C98DB13D3CF2FBAF5085510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4AC51B03FE1AD675D62AE1DF465177CD /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E4A50E29A4B256142E27E98E95597 /* Protector.swift */; };
+		6756257687F9350DD1E2459DBCC33DD6 /* Pods-WZLock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B8459BA357DEA0016B367E4F5FD258 /* Pods-WZLock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BF02A869B3E49CD5657D1A68A4AF0B5 /* Pods-WZLock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA87D0519B2B61686CA8B28916D324B /* Pods-WZLock_Example-dummy.m */; };
+		94C6EB7EBCA24CE9690BE497BD8040D7 /* WZLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A58F0528148397CD8AEBDE406C65E0 /* WZLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F9B0FF15A62EF300DA3C8F3112599F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A6EE23A6FFAE9120C90E68E6AB25A6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1CD47B7CA771BF782925DFEF1DEA0F8 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64327DA71CD9DA8BE85AE74CCF6C7AD2 /* Lock.swift */; };
+		BD1D35DA096925ECA7F9C8D239170943 /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6012FE4BB65A5D5D5CB58CBBE4A62 /* UnfairLock.swift */; };
+		E3A631F3D6502F122EAA31058FE42427 /* MutexLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E2FD67CFB6FAE8725BD42AFE84E12 /* MutexLock.swift */; };
+		F1786F6E8EDA33EF463C0B0AF9898F6D /* WZLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EDA78214C3E8C9292A1C83D1F358C /* WZLock-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EC1A185A9BDE20EB604F60E3D1770AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40F41371324A2CE1EB311A5EC9B6280;
+			remoteInfo = "Pods-WZLock_Example";
+		};
+		ED7A9745104BD74F998C0712319E3A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD19FDDBE43132EA3E408AD6DDA2B4C4;
+			remoteInfo = WZLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033E93C21040351DDC1CD45F1991B756 /* Pods-WZLock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLock_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B1E0C3DA63C942DDEC7A73F03618F86 /* Pods-WZLock_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLock_Example-Info.plist"; sourceTree = "<group>"; };
+		3BF033AA5B76935589995132566CDD0C /* WZLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZLock-Info.plist"; sourceTree = "<group>"; };
+		42346E2B0B0C3D206E7C6F498298AA8E /* WZLock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZLock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C7EFD4A6FD9788D37B1800EE47EEBD7 /* Pods-WZLock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		60DE72DBE01975B337FCBE7A718A0293 /* Pods_WZLock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZLock_Tests.framework; path = "Pods-WZLock_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AB3F9E6672A3C7A03DF03099976164 /* Pods-WZLock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZLock_Tests-umbrella.h"; sourceTree = "<group>"; };
+		63B8459BA357DEA0016B367E4F5FD258 /* Pods-WZLock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZLock_Example-umbrella.h"; sourceTree = "<group>"; };
+		64327DA71CD9DA8BE85AE74CCF6C7AD2 /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = WZLock/Classes/Lock.swift; sourceTree = "<group>"; };
+		6FB48368795BB0BB86A2106977E0F564 /* WZLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLock-prefix.pch"; sourceTree = "<group>"; };
+		75AA625F1B904D8B0F80C6BE3ADCED9F /* Pods_WZLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZLock_Example.framework; path = "Pods-WZLock_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CA67C00E3CCECC9B22524AD84EA9F2 /* Pods-WZLock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLock_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A67EE7E79E50904716E531733A6BAEF /* WZLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZLock.modulemap; sourceTree = "<group>"; };
+		89C6012FE4BB65A5D5D5CB58CBBE4A62 /* UnfairLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnfairLock.swift; path = WZLock/Classes/UnfairLock.swift; sourceTree = "<group>"; };
+		8B6D51FFC78E89C32CA757832F13D6F5 /* Pods-WZLock_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLock_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97469DB8CBE462B99129D32A9FBEAC6B /* Pods-WZLock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZLock_Tests.modulemap"; sourceTree = "<group>"; };
+		9C7E4A50E29A4B256142E27E98E95597 /* Protector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protector.swift; path = WZLock/Classes/Protector.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D43039288680B1CFAC5764CA94DD94 /* WZLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZLock.framework; path = WZLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A58F0528148397CD8AEBDE406C65E0 /* WZLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLock-umbrella.h"; sourceTree = "<group>"; };
+		AC242990AEB0D53FD8F1307E74BCE62B /* Pods-WZLock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLock_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AFDC96A18489EE49F5D65D6F5704A3FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B56E2FD67CFB6FAE8725BD42AFE84E12 /* MutexLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutexLock.swift; path = WZLock/Classes/MutexLock.swift; sourceTree = "<group>"; };
+		BDA87D0519B2B61686CA8B28916D324B /* Pods-WZLock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZLock_Example-dummy.m"; sourceTree = "<group>"; };
+		C058C4A538CE0D76EF8C846C3BB6E413 /* WZLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZLock.debug.xcconfig; sourceTree = "<group>"; };
+		C76EDA78214C3E8C9292A1C83D1F358C /* WZLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZLock-dummy.m"; sourceTree = "<group>"; };
+		C7DD6B2FFDF48186208E14D61F59B779 /* Pods-WZLock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZLock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8D00D443E44232200C3E60E5220321F /* Pods-WZLock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZLock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D17143981A92D13D01DD96ED397B766C /* Pods-WZLock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZLock_Example.modulemap"; sourceTree = "<group>"; };
+		D8D69D72784F376AA570625D6998046B /* Pods-WZLock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8087475248BE31B323490A2297B6651 /* WZLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZLock.release.xcconfig; sourceTree = "<group>"; };
+		EB7817EA227155E58EC4B88CB7733F32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F65D0D55E5E9B23D10D34E692DD424B7 /* Pods-WZLock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZLock_Tests-dummy.m"; sourceTree = "<group>"; };
+		FDBAD1BFEA2E5CEF4906DFD487203ECF /* Pods-WZLock_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLock_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11274E193068617069AD96B758DDB5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EE23A6FFAE9120C90E68E6AB25A6E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2834B3CFC022FF29C33CFCC599D43BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F9B0FF15A62EF300DA3C8F3112599F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0FF2FA1601F6F3A6A0538F5184F830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAE84818C98DB13D3CF2FBAF5085510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0517A1446E97BB3E6B28D5774627EF6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2B29BC0053F057D04AD4225AAD05EE1 /* Pods-WZLock_Example */,
+				19F567DFFD3192A08346E29965435F60 /* Pods-WZLock_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		19F567DFFD3192A08346E29965435F60 /* Pods-WZLock_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				97469DB8CBE462B99129D32A9FBEAC6B /* Pods-WZLock_Tests.modulemap */,
+				C7DD6B2FFDF48186208E14D61F59B779 /* Pods-WZLock_Tests-acknowledgements.markdown */,
+				8B6D51FFC78E89C32CA757832F13D6F5 /* Pods-WZLock_Tests-acknowledgements.plist */,
+				F65D0D55E5E9B23D10D34E692DD424B7 /* Pods-WZLock_Tests-dummy.m */,
+				FDBAD1BFEA2E5CEF4906DFD487203ECF /* Pods-WZLock_Tests-Info.plist */,
+				63AB3F9E6672A3C7A03DF03099976164 /* Pods-WZLock_Tests-umbrella.h */,
+				D8D69D72784F376AA570625D6998046B /* Pods-WZLock_Tests.debug.xcconfig */,
+				79CA67C00E3CCECC9B22524AD84EA9F2 /* Pods-WZLock_Tests.release.xcconfig */,
+			);
+			name = "Pods-WZLock_Tests";
+			path = "Target Support Files/Pods-WZLock_Tests";
+			sourceTree = "<group>";
+		};
+		315D5A6F599EC2DF8F019A7E76A39E1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AA625F1B904D8B0F80C6BE3ADCED9F /* Pods_WZLock_Example.framework */,
+				60DE72DBE01975B337FCBE7A718A0293 /* Pods_WZLock_Tests.framework */,
+				A0D43039288680B1CFAC5764CA94DD94 /* WZLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337056B699ED5022EEE28CB3F53684B7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB7817EA227155E58EC4B88CB7733F32 /* LICENSE */,
+				AFDC96A18489EE49F5D65D6F5704A3FF /* README.md */,
+				42346E2B0B0C3D206E7C6F498298AA8E /* WZLock.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7C26821241CC4E8CB3CB559EB5F72411 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				64327DA71CD9DA8BE85AE74CCF6C7AD2 /* Lock.swift */,
+				B56E2FD67CFB6FAE8725BD42AFE84E12 /* MutexLock.swift */,
+				9C7E4A50E29A4B256142E27E98E95597 /* Protector.swift */,
+				89C6012FE4BB65A5D5D5CB58CBBE4A62 /* UnfairLock.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		891553702BC1FE59B27F01B9D2B7CCCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A67EE7E79E50904716E531733A6BAEF /* WZLock.modulemap */,
+				C76EDA78214C3E8C9292A1C83D1F358C /* WZLock-dummy.m */,
+				3BF033AA5B76935589995132566CDD0C /* WZLock-Info.plist */,
+				6FB48368795BB0BB86A2106977E0F564 /* WZLock-prefix.pch */,
+				A9A58F0528148397CD8AEBDE406C65E0 /* WZLock-umbrella.h */,
+				C058C4A538CE0D76EF8C846C3BB6E413 /* WZLock.debug.xcconfig */,
+				E8087475248BE31B323490A2297B6651 /* WZLock.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZLock";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1D9865BA0BC11D7259A7B5BFF648011 /* WZLock */ = {
+			isa = PBXGroup;
+			children = (
+				337056B699ED5022EEE28CB3F53684B7 /* Pod */,
+				7C26821241CC4E8CB3CB559EB5F72411 /* Source */,
+				891553702BC1FE59B27F01B9D2B7CCCC /* Support Files */,
+			);
+			name = WZLock;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DA95D5291AF602BFF965D312029CAC2F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				315D5A6F599EC2DF8F019A7E76A39E1F /* Products */,
+				0517A1446E97BB3E6B28D5774627EF6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA95D5291AF602BFF965D312029CAC2F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D9865BA0BC11D7259A7B5BFF648011 /* WZLock */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2B29BC0053F057D04AD4225AAD05EE1 /* Pods-WZLock_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D17143981A92D13D01DD96ED397B766C /* Pods-WZLock_Example.modulemap */,
+				C8D00D443E44232200C3E60E5220321F /* Pods-WZLock_Example-acknowledgements.markdown */,
+				5C7EFD4A6FD9788D37B1800EE47EEBD7 /* Pods-WZLock_Example-acknowledgements.plist */,
+				BDA87D0519B2B61686CA8B28916D324B /* Pods-WZLock_Example-dummy.m */,
+				3B1E0C3DA63C942DDEC7A73F03618F86 /* Pods-WZLock_Example-Info.plist */,
+				63B8459BA357DEA0016B367E4F5FD258 /* Pods-WZLock_Example-umbrella.h */,
+				033E93C21040351DDC1CD45F1991B756 /* Pods-WZLock_Example.debug.xcconfig */,
+				AC242990AEB0D53FD8F1307E74BCE62B /* Pods-WZLock_Example.release.xcconfig */,
+			);
+			name = "Pods-WZLock_Example";
+			path = "Target Support Files/Pods-WZLock_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		031B98E1274E8A62899701851C63C006 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6756257687F9350DD1E2459DBCC33DD6 /* Pods-WZLock_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC12F4F407A2F03B493DD9567C6819D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164CDC51BED2265131655DDF160D1659 /* Pods-WZLock_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64D98DFC27228BCAE34107C2CC80F88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C6EB7EBCA24CE9690BE497BD8040D7 /* WZLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08F05F755A4A8DDFC4928D9F5D513CEB /* Pods-WZLock_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DE3F2737E0B0DB8D097D308FE3F8B6 /* Build configuration list for PBXNativeTarget "Pods-WZLock_Tests" */;
+			buildPhases = (
+				4BC12F4F407A2F03B493DD9567C6819D /* Headers */,
+				02D7DCA6539737113E0FDF53826EEF39 /* Sources */,
+				2F0FF2FA1601F6F3A6A0538F5184F830 /* Frameworks */,
+				902DB6E08D0D5D9BD71BBE28989DEB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86CBE2758071B5555C6F2E85695109B /* PBXTargetDependency */,
+			);
+			name = "Pods-WZLock_Tests";
+			productName = "Pods-WZLock_Tests";
+			productReference = 60DE72DBE01975B337FCBE7A718A0293 /* Pods_WZLock_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A40F41371324A2CE1EB311A5EC9B6280 /* Pods-WZLock_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC991865871D42E3A8A15276803B3DD5 /* Build configuration list for PBXNativeTarget "Pods-WZLock_Example" */;
+			buildPhases = (
+				031B98E1274E8A62899701851C63C006 /* Headers */,
+				18E32DBDFB3E9563994102D57DF86F5A /* Sources */,
+				2834B3CFC022FF29C33CFCC599D43BDC /* Frameworks */,
+				9E4FFD00CA459D1850840F57446A9CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB5DA2183D46443583EECBBB02B243A /* PBXTargetDependency */,
+			);
+			name = "Pods-WZLock_Example";
+			productName = "Pods-WZLock_Example";
+			productReference = 75AA625F1B904D8B0F80C6BE3ADCED9F /* Pods_WZLock_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD19FDDBE43132EA3E408AD6DDA2B4C4 /* WZLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE219D668D18E0D741E58B365CD8FC7 /* Build configuration list for PBXNativeTarget "WZLock" */;
+			buildPhases = (
+				E64D98DFC27228BCAE34107C2CC80F88 /* Headers */,
+				62505A059DE26106C62EDDC392A0C734 /* Sources */,
+				11274E193068617069AD96B758DDB5B5 /* Frameworks */,
+				B25DA7657D074A4DCE37300FC554F02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZLock;
+			productName = WZLock;
+			productReference = A0D43039288680B1CFAC5764CA94DD94 /* WZLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 315D5A6F599EC2DF8F019A7E76A39E1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40F41371324A2CE1EB311A5EC9B6280 /* Pods-WZLock_Example */,
+				08F05F755A4A8DDFC4928D9F5D513CEB /* Pods-WZLock_Tests */,
+				DD19FDDBE43132EA3E408AD6DDA2B4C4 /* WZLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902DB6E08D0D5D9BD71BBE28989DEB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4FFD00CA459D1850840F57446A9CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25DA7657D074A4DCE37300FC554F02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D7DCA6539737113E0FDF53826EEF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0930CDCA22C254B6F18D68B254391FC2 /* Pods-WZLock_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E32DBDFB3E9563994102D57DF86F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF02A869B3E49CD5657D1A68A4AF0B5 /* Pods-WZLock_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62505A059DE26106C62EDDC392A0C734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CD47B7CA771BF782925DFEF1DEA0F8 /* Lock.swift in Sources */,
+				E3A631F3D6502F122EAA31058FE42427 /* MutexLock.swift in Sources */,
+				4AC51B03FE1AD675D62AE1DF465177CD /* Protector.swift in Sources */,
+				BD1D35DA096925ECA7F9C8D239170943 /* UnfairLock.swift in Sources */,
+				F1786F6E8EDA33EF463C0B0AF9898F6D /* WZLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E86CBE2758071B5555C6F2E85695109B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WZLock_Example";
+			target = A40F41371324A2CE1EB311A5EC9B6280 /* Pods-WZLock_Example */;
+			targetProxy = 2EC1A185A9BDE20EB604F60E3D1770AE /* PBXContainerItemProxy */;
+		};
+		EFB5DA2183D46443583EECBBB02B243A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZLock;
+			target = DD19FDDBE43132EA3E408AD6DDA2B4C4 /* WZLock */;
+			targetProxy = ED7A9745104BD74F998C0712319E3A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3156F27D9FF27A736FB7C71B0B32C13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CA67C00E3CCECC9B22524AD84EA9F2 /* Pods-WZLock_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLock_Tests/Pods-WZLock_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLock_Tests/Pods-WZLock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3899C40A4616E86F45DB7CD08473833F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033E93C21040351DDC1CD45F1991B756 /* Pods-WZLock_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLock_Example/Pods-WZLock_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLock_Example/Pods-WZLock_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84CC6D035E47D4F5F9245583A47E0A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8087475248BE31B323490A2297B6651 /* WZLock.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZLock/WZLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZLock/WZLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZLock/WZLock.modulemap";
+				PRODUCT_MODULE_NAME = WZLock;
+				PRODUCT_NAME = WZLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE85FF76767ABFDB5AE52D46E5F3F40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D69D72784F376AA570625D6998046B /* Pods-WZLock_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLock_Tests/Pods-WZLock_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLock_Tests/Pods-WZLock_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4047DC6B08E190725C572B64112FE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C058C4A538CE0D76EF8C846C3BB6E413 /* WZLock.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZLock/WZLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZLock/WZLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZLock/WZLock.modulemap";
+				PRODUCT_MODULE_NAME = WZLock;
+				PRODUCT_NAME = WZLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDED6C1A1C7B3785A092A75E8FAB8BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC242990AEB0D53FD8F1307E74BCE62B /* Pods-WZLock_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLock_Example/Pods-WZLock_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLock_Example/Pods-WZLock_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE219D668D18E0D741E58B365CD8FC7 /* Build configuration list for PBXNativeTarget "WZLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4047DC6B08E190725C572B64112FE2D /* Debug */,
+				84CC6D035E47D4F5F9245583A47E0A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC991865871D42E3A8A15276803B3DD5 /* Build configuration list for PBXNativeTarget "Pods-WZLock_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3899C40A4616E86F45DB7CD08473833F /* Debug */,
+				EDED6C1A1C7B3785A092A75E8FAB8BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DE3F2737E0B0DB8D097D308FE3F8B6 /* Build configuration list for PBXNativeTarget "Pods-WZLock_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85FF76767ABFDB5AE52D46E5F3F40A /* Debug */,
+				3156F27D9FF27A736FB7C71B0B32C13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
