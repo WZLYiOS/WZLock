@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   
   s.name             = 'WZLock'
   s.version          = '2.0.0'
-  s.summary          = '安全锁'
+  s.summary          = 'lock安全锁'
   
   s.description      = <<-DESC
   我主良缘锁
